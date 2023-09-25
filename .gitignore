@@ -1,0 +1,50 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de registro y datos temporales
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos generados por construcción
+/dist/
+/build/
+
+# Archivos locales de configuración
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencias de desarrollo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Carpeta de archivos compilados TypeScript
+*.js
+*.js.map
+
+# Carpetas de cobertura de pruebas
+coverage/
+
+# Archivos de configuración de IDE y editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Dependencias de desarrollo específicas de tu sistema
+node_modules/
+
+# Dependencias de producción específicas de tu sistema
+node_modules/
+package-lock.json
+
+# Caché de dependencias de npm
+.npm
